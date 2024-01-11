@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Cursos Digitales</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+<!--Menu navegable-->
+    <header>
+    
+        <nav>
+            <ul>
+                <li><a href="/pages/nosotros.html">Nosotros</a></li>
+                <li><a href="/pages/contacto.html">Contacto</a></li>
+                <li><a href="/pages/galeria.html">Galería</a></li>
+                <li><a href="/pages/faq.html">FAQs</a></li>
+            </ul>
+        </nav>
+        <h1>Tienda de Cursos Digitales</h1>
+        <p class="subtitulo">Descubre nuevos conocimientos y habilidades</p>
+    </header>
+
+<!--bloques de imagenes-->
+    <div class="courses-container">
+        <section class="course">
+            <img src="./assets/images.png" alt="Curso 1">
+            <div class="course-info">
+                <h2>Curso de Desarrollo Web</h2>
+                <p>Aprende a crear sitios web modernos.Este curso te sumergirá en el fascinante mundo del desarrollo web, proporcionándote las habilidades esenciales para crear sitios modernos y funcionales. Aprenderás los fundamentos de HTML, CSS y JavaScript, así como las mejores prácticas de diseño responsivo y accesibilidad. Con proyectos prácticos y orientación de expertos, estarás listo para construir tu presencia en línea o iniciar una carrera en desarrollo web.</p>
+                <p class="price">$49.99</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+
+        <section class="course">
+            <img src="/assets/Flyer talleres 2020 (1).png" alt="Curso 2">
+            <div class="course-info">
+                <h2>Curso de Diseño Gráfico</h2>
+                <p>Desarrolla tus habilidades de diseño visual.Descubre tu creatividad y perfecciona tus habilidades artísticas con nuestro curso de diseño gráfico. Desde los principios del diseño hasta el dominio de herramientas como Adobe Illustrator y Photoshop, este curso te brindará las herramientas necesarias para crear imágenes visuales impactantes. </p>
+                <p class="price">$39.99</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+        <section class="course">
+            <img src="/assets/ceramicafria03Mesadetrabajo1copia54.png" alt="Curso 3">
+            <div class="course-info">
+                <h2>Curso de Porcelana Fria</h2>
+                <p>Sumérgete en el arte de la porcelana fría con nuestro curso especializado. Descubrirás las técnicas esenciales para manipular y moldear esta versátil masa, creando hermosas esculturas y figuras. Desde la preparación de la masa hasta la aplicación de detalles y pintura, aprenderás cada paso necesario para convertirte en un artista de la porcelana fría.</p>
+                <p class="price">$29.99</p>
+                <button>Comprar</button>
+            </div>
+        </section>
+    </div>
+
+
+<!--Inserto iframe enlace video de youtube-->
+ <section class="video-section">
+        <h2>Solo un lugar para acceder a todos los Cursos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S7iQrLN74oo?si=ehhpdZr8DTrZ-l1T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+
+    <!--Campo para Mail-->
+    <section class="newsletter">
+        <h2>Suscríbete a nuestro boletín</h2>
+        <form action="#" method="post">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit" class="boton-llamativo">Suscribirse</button>
+        </form>
+        <p class="mensaje-exito" style="display:none;">¡Gracias por suscribirte!</p>
+      <!--Link Redes Sociales-->  
+    </section>
+    <section class="contacto-redes">
+        <div class="redes-sociales">
+            <a href="#" target="_blank">Facebook</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+        <div class="datos-contacto">
+            <p>Contacto: contacto@tutienda.com</p>
+            <p>Teléfono: +1 234 567 890</p>
+        </div>
+    </section>
+
+<!--dealles de footer-->
+    <footer>
+        <p>&copy; 2023 Tienda de Cursos Digitales</p>
+    </footer>
+
+</body>
+</html>
