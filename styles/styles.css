@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.logo{
+.logo1{
     max-width: 100px; /* Ajusta el ancho máximo según tu diseño */
     height: auto; /* Para mantener la proporción de la imagen */
     margin-right: 10px; /* Ajusta el margen derecho según tu diseño */
@@ -115,8 +115,8 @@ header {
     color: #4caf50;
 }
 
-button {
-    background-color: #4caf50;
+.botonpisado {
+    background-color: #e42200;
     color: white;
     padding: 10px;
     border: none;
