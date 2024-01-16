@@ -154,6 +154,7 @@ header {
 
 
 /*formulario*/ 
+
 .newsletter form {
     display: flex;
     flex-direction: column;
