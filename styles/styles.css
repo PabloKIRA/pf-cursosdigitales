@@ -33,6 +33,7 @@ header {
     padding: 20px;
 }
 
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -346,6 +347,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 /*estilos redes sociales*/
 .redessociales{
     width: 30px;
