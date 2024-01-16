@@ -346,10 +346,13 @@ footer {
 }
 
 /*estilos redes sociales*/
+.redes-sociales{
+    width: 30px;
+    height: 30px;   
+}
 .redessociales{
     width: 30px;
     height: 30px;
-    
 }
 
  /* Estilos para la sección de Comentarios */
