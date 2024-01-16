@@ -114,10 +114,7 @@ header {
     margin: 20px;
 }
 
-.course img {
-    max-width: 200px;
-    margin-right: 20px;
-}
+
 
 .course-info {
 
@@ -134,7 +131,7 @@ header {
 }
 
 .botonpisado {
-    background-color: #e42200;
+    background-color: #1404f3;
     color: white;
     padding: 10px;
     border: none;
@@ -165,7 +162,7 @@ header {
 
 .newsletter button {
     background-color: #FF5722; 
-    color: white;
+    color: rgb(0, 119, 255);
     padding: 15px 30px; 
     border: none;
     border-radius: 5px;
