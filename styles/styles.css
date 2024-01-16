@@ -144,11 +144,14 @@ header {
 /* centrando iframe*/
 .video-section {
     text-align: center;
+    
 }
 
 .video-section iframe {
     max-width: 100%;
+    
 }
+
 
 /*formulario*/ 
 .newsletter form {
@@ -342,6 +345,13 @@ footer {
     bottom: 0;
     width: 100%;
 }
+/*estilos redes sociales*/
+.redessociales{
+    width: 30px;
+    height: 30px;
+    
+}
+
  /* Estilos para la sección de Comentarios */
  .comments-section {
     text-align: center;
