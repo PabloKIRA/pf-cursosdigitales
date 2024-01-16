@@ -2,28 +2,28 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
 }
-/* Base styles for all devices */
+/* Estilo base para todo dispositivo*/
 body {
     font-size: 16px;
    }
    
-   /* Media query for medium screens */
+   /* Media query para dispositivos medianos */
    @media screen and (min-width: 768px) {
     body {
        font-size: 18px;
     }
    }
    
-   /* Media query for large screens */
+   /* Media query para disp grandes*/
    @media screen and (min-width: 1024px) {
     body {
        font-size: 20px;
     }
    }
 .logo1{
-    max-width: 100px; /* Ajusta el ancho máximo según tu diseño */
-    height: auto; /* Para mantener la proporción de la imagen */
-    margin-right: 10px; /* Ajusta el margen derecho según tu diseño */
+    max-width: 100px; 
+    height: auto; 
+    margin-right: 10px; 
 }
 
 header {
