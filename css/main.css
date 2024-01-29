@@ -78,7 +78,7 @@ header {
   margin-right: 10px;
 }
 
-footer {
+.footer {
   background-color: #333;
   color: white;
   text-align: center;
@@ -349,18 +349,18 @@ footer {
   margin-bottom: 50px;
 }
 
-form {
+.form {
   max-width: 300px; /* Ajusta el ancho del formulario de comentarios */
   margin: 0 auto;
 }
 
-textarea {
+.textarea {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: 10px;
 }
 
-button {
+.button {
   background-color: #4CAF50;
   color: white;
   padding: 10px 20px;
@@ -369,7 +369,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   background-color: #45a049;
 }
 
