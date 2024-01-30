@@ -25,22 +25,24 @@ h1 {
 }
 
 /*MENU NAVEGABLES*/
-nav li {
-  float: left;
-  list-style: none;
-}
-nav a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-nav a:hover {
-  background-color: #45a049;
-}
-nav .navbar-brand {
-  padding: 0;
+nav {
+  li {
+    float: left;
+    list-style: none;
+  }
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    &:hover {
+      background-color: #45a049;
+    }
+  }
+  .navbar-brand {
+    padding: 0;
+  }
 }
 
 .logo1 {
