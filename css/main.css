@@ -103,30 +103,25 @@ header {
 }
 
 .course {
-  flex: 1; /* Hace que cada curso ocupe el mismo espacio */
-  margin-right: 20px; /* Añade un margen entre los bloques */
+  margin: 20px;
 }
 
+.course .course-info {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.course {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
 .course img {
   max-width: 100%;
   margin-bottom: 10px;
 }
-
-.course-info {
-  width: 100%;
-}
-
-.course {
-  flex-direction: column;
-  display: flex;
-  margin: 20px;
-}
-
-.course-info {
-  flex-grow: 1;
-}
-
-.course-info h2 {
+.course .course-info h2 {
   font-size: 1.5em;
 }
 

@@ -3,36 +3,40 @@
     display: flex;
     gap: 20px;
 }
+$margin: 20px;
+$course-margin-right: 20px;
 
-.course {
-    flex: 1; /* Hace que cada curso ocupe el mismo espacio */
-    margin-right: 20px; /* Añade un margen entre los bloques */
+%course-margin {
+  margin: $margin;
 }
 
-.course img {
+%course-info-width {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.course {
+  flex: 1;
+  margin-right: $course-margin-right;
+  display: flex;
+  flex-direction: column;
+  @extend %course-margin;
+
+  img {
     max-width: 100%;
     margin-bottom: 10px;
+  }
+
+  .course-info {
+    @extend %course-info-width;
+
+    h2 {
+      font-size: 1.5em;
+    }
+  }
 }
 
-.course-info {
-    width: 100%;
-}
-.course {
-    flex-direction: column;
-    display: flex;
-    margin: 20px;
-}
 
-
-
-.course-info {
-
-    flex-grow: 1;
-}
-
-.course-info h2 {
-    font-size: 1.5em;
-}
 
 .price {
     font-size: 1.2em;
