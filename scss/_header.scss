@@ -30,8 +30,16 @@ nav {
             background-color: #45a049;
         }
     }
+    .navbar-brand {
+        padding: 0; // Elimina cualquier relleno en el contenedor de la marca
+      }
+         
 }
-
+.logo1 {
+        max-width: 100%; // Asegura que el logo se ajuste al ancho del contenedor
+        height: auto; // Hace que la altura se ajuste proporcionalmente
+        margin-right: 10px;
+      }
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -39,8 +47,3 @@ body {
 }
 
 
-.logo1{
-    max-width: 100px; 
-    height: auto; 
-    margin-right: 10px; 
-}

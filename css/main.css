@@ -39,17 +39,20 @@ nav a {
 nav a:hover {
   background-color: #45a049;
 }
+nav .navbar-brand {
+  padding: 0;
+}
+
+.logo1 {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+}
 
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-}
-
-.logo1 {
-  max-width: 100px;
-  height: auto;
-  margin-right: 10px;
 }
 
 .pie {
@@ -61,11 +64,13 @@ body {
   bottom: 0;
   width: 100%;
 }
-.pie .redes-sociales {
+
+.redes-sociales {
   width: 30px;
   height: 30px; /* agregue punto y coma */
 }
-.pie .redes-social { /* corregido el nombre de la clase y agregue punto y coma */
+
+.redes-social { /* corregido el nombre de la clase y agregue punto y coma */
   width: 30px;
   height: 30px;
 }
@@ -221,94 +226,36 @@ body {
 }
 
 /*formato formulario -contacto */
+/* Estilos generales */
 .formulario-contacto {
   max-width: 400px;
   margin: 20px auto;
 }
-
 .formulario-contacto h2 {
   text-align: center;
 }
-
-.formulario-contacto form {
-  display: flex;
-  flex-direction: column;
-}
-
-.formulario-contacto label {
-  margin-bottom: 5px;
-}
-
-.formulario-contacto input,
-.formulario-contacto textarea {
-  margin-bottom: 10px;
-  padding: 8px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.formulario-contacto button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-}
-
-.formulario-contacto {
-  max-width: 400px;
-  margin: 20px auto;
-}
-
-.formulario-contacto h2 {
-  text-align: center;
-}
-
 .formulario-contacto form {
   display: flex;
   flex-direction: column;
   margin-bottom: 20px; /* Ajusta el margen inferior del formulario */
 }
-
-.formulario-contacto label {
+.formulario-contacto form label {
   margin-bottom: 5px;
 }
-
-.formulario-contacto input,
-.formulario-contacto textarea {
+.formulario-contacto form input,
+.formulario-contacto form textarea {
   margin-bottom: 10px;
   padding: 8px;
   width: 100%;
   box-sizing: border-box;
 }
-
-.formulario-contacto button {
+.formulario-contacto form button {
   background-color: #4CAF50;
   color: white;
   padding: 10px;
   border: none;
   cursor: pointer;
   margin-bottom: 60px;
-}
-
-/* estilos faqs*/
-.faqs-section {
-  text-align: center;
-  padding: 20px;
-}
-
-.faq-container {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 20px;
-}
-
-.faq {
-  flex: 0 0 48%; /* Ajusta según el espacio que desees entre los bloques */
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  padding: 10px;
-  margin: 0 5px;
 }
 
 /* Estilos para la sección de Comentarios */
