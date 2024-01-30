@@ -1,49 +1,182 @@
 header {
-    background-color: #333;
-    color: white;
-    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
     padding: 20px;
-}
-
-h1 {
-    margin: 10px 0;
-}
-
-.subtitulo {
-    margin: 0;
-}
-/*MENU NAVEGABLES*/
-nav {
-    li {
-        float: left;
-        list-style: none;
+  
+    h1 {
+      font-size: 2em;
     }
-
-    a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-
-        &:hover {
-            background-color: #45a049;
+  
+    p.subtitulo {
+      font-size: 1.2em;
+    }
+  
+    .navbar {
+      // Estilos de la barra de navegación
+      background-color: #343a40;
+  
+      .navbar-brand {
+        // Estilos del logo
+        img {
+          width: 50px;
+          height: auto;
+          margin-right: 10px;
         }
+      }
+  
+      .navbar-nav {
+        .nav-link {
+          color: #111111;
+  
+          &:hover {
+            color: #28a745;
+          }
+        }
+  
+        .active {
+          font-weight: bold;
+        }
+  
+        .dropdown-menu {
+          background-color: #343a40;
+          border: 1px solid #28a745;
+  
+          .dropdown-item {
+            color: #ffffff;
+  
+            &:hover {
+              background-color: #28a745;
+            }
+          }
+  
+          .dropdown-divider {
+            border-color: #28a745;
+          }
+        }
+      }
+  
+      .form-control {
+        background-color: #e9ecef;
+        color: #495057;
+      }
     }
-    .navbar-brand {
-        padding: 0; // Elimina cualquier relleno en el contenedor de la marca
+  }
+  /* Estilos de los cursos */
+.courses-container {
+    .course {
+      border: 1px solid #0e6fcf;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.05);
       }
-         
-}
-.logo1 {
-        max-width: 100%; // Asegura que el logo se ajuste al ancho del contenedor
-        height: auto; // Hace que la altura se ajuste proporcionalmente
-        margin-right: 10px;
+  
+      img {
+        width: 100%;
+        height: auto;
       }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
-
+  
+      .course-info {
+        padding: 20px;
+  
+        h2 {
+          color: #343a40;
+        }
+  
+        p {
+          color: #6c757d;
+        }
+  
+        .price {
+          color: #dc3545;
+          font-weight: bold;
+          margin-top: 10px;
+        }
+  
+        .botonpisado {
+          background-color: #0d3896;
+          color: #ffffff;
+          border: none;
+          padding: 8px 16px;
+          font-size: 1em;
+          cursor: pointer;
+  
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+      }
+    }
+  }
+  
+  /* Estilos del video iframe */
+  .container.text-center {
+    margin-top: 50px;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Estilos del formulario de suscripción */
+  .newsletter {
+    margin-top: 50px;
+  
+    h2 {
+      margin-bottom: 20px;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+  
+      label {
+        margin-bottom: 10px;
+      }
+  
+      input {
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+  
+      .boton-llamativo {
+        background-color: #007bff;
+        color: #ffffff;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
+  /* Estilos del pie de página */
+  .pie {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+  
+    .redessociales {
+      width: 30px;
+      height: 30px;
+      margin: 0 10px;
+      fill: #ffffff;
+      cursor: pointer;
+  
+      &:hover {
+        fill: #28a745;
+      }
+    }
+  }
