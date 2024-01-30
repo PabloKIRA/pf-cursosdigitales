@@ -6,14 +6,14 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-/*estilos redes sociales*/
-.redes-sociales{
-    width: 30px;
-    height: 30px;   
-}
-.redessociales{
-    width: 30px;
-    height: 30px;
+    
+    .redes-sociales {
+        width: 30px;
+        height: 30px; /* agregue punto y coma */
+    }
+    
+    .redes-social { /* corregido el nombre de la clase y agregue punto y coma */
+        width: 30px;
+        height: 30px;
+    }
 }

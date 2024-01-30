@@ -87,14 +87,11 @@ header {
   bottom: 0;
   width: 100%;
 }
-
-/*estilos redes sociales*/
-.redes-sociales {
+.pie .redes-sociales {
   width: 30px;
-  height: 30px;
+  height: 30px; /* agregue punto y coma */
 }
-
-.redessociales {
+.pie .redes-social { /* corregido el nombre de la clase y agregue punto y coma */
   width: 30px;
   height: 30px;
 }
