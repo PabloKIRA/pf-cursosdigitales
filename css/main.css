@@ -90,6 +90,10 @@ body {
   margin-right: 20px;
   display: flex;
   flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
 }
 .course img {
   max-width: 100%;
@@ -349,6 +353,11 @@ button:hover {
 @media screen and (min-width: 1024px) {
   body {
     font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar img {
+    max-width: 60%;
   }
 }
 
