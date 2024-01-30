@@ -11,7 +11,7 @@ body {
 
 header {
   background-color: #343a40;
-  color: #ffffff;
+  color: #f6f7f6;
   padding: 20px;
 }
 header h1 {
@@ -23,7 +23,7 @@ header p.subtitulo {
 header .navbar {
   background-color: #343a40;
 }
-header .navbar .navbar-brand img {
+header .navbar .navbar-brand .logo1 {
   width: 50px;
   height: auto;
   margin-right: 10px;
