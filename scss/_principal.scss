@@ -41,7 +41,18 @@ $course-margin-right: 20px;
   }
 }
 
+.navbar {
+    // Estilos de la barra de navegación
+    background-color: #343a40;
 
+    .navbar-brand {
+      // Estilos del logo
+      .logo1 {
+        width: 50px;
+        height: auto;
+        margin-right: 10px;
+      }
+    }
 
 .price {
     font-size: 1.2em;
