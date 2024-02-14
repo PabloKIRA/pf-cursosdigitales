@@ -1,18 +1,396 @@
-/* Error: expected "}".
- *     ,
- * 242 | }
- *     |  ^
- *     '
- *   scss\_principal.scss 242:2  @import
- *   scss\main.scss 9:9          root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a     \2577 \a 242 \2502  }\a     \2502   ^\a     \2575 \a   scss\\_principal.scss 242:2  @import\a   scss\\main.scss 9:9          root stylesheet';
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
+
+/* Estilo base para todo dispositivo*/
+body {
+  font-size: 16px;
+}
+
+header {
+  background-color: #343a40;
+  color: #f6f7f6;
+  padding: 20px;
+}
+header h1 {
+  font-size: 2em;
+}
+header p.subtitulo {
+  font-size: 1.2em;
+}
+header .navbar {
+  background-color: #343a40;
+}
+header .navbar .navbar-brand .logo1 {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+header .navbar .navbar-nav .nav-link {
+  color: #111111;
+}
+header .navbar .navbar-nav .nav-link:hover {
+  color: #28a745;
+}
+header .navbar .navbar-nav .active {
+  font-weight: bold;
+}
+header .navbar .navbar-nav .dropdown-menu {
+  background-color: #343a40;
+  border: 1px solid #28a745;
+}
+header .navbar .navbar-nav .dropdown-menu .dropdown-item {
+  color: #ffffff;
+}
+header .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
+  background-color: #28a745;
+}
+header .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+  border-color: #28a745;
+}
+header .navbar .form-control {
+  background-color: #e9ecef;
+  color: #495057;
+}
+
+/* Estilos de los cursos */
+.courses-container .course {
+  border: 1px solid #0e6fcf;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+.courses-container .course:hover {
+  transform: scale(1.05);
+}
+.courses-container .course img {
+  width: 100%;
+  height: auto;
+}
+.courses-container .course .course-info {
+  padding: 20px;
+}
+.courses-container .course .course-info h2 {
+  color: #343a40;
+}
+.courses-container .course .course-info p {
+  color: #6c757d;
+}
+.courses-container .course .course-info .price {
+  color: #dc3545;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.courses-container .course .course-info .botonpisado {
+  background-color: #0d3896;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.courses-container .course .course-info .botonpisado:hover {
+  background-color: #c82333;
+}
+
+/* Estilos del video iframe */
+.container.text-center {
+  margin-top: 50px;
+}
+.container.text-center h2 {
+  margin-bottom: 20px;
+}
+.container.text-center iframe {
+  width: 100%;
+  height: 315px;
+  margin-bottom: 20px;
+}
+
+/* Estilos del formulario de suscripción */
+.newsletter {
+  margin-top: 50px;
+}
+.newsletter h2 {
+  margin-bottom: 20px;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+.newsletter form label {
+  margin-bottom: 10px;
+}
+.newsletter form input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.newsletter form .boton-llamativo {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.newsletter form .boton-llamativo:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos del pie de página */
+.pie {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px;
+  text-align: center;
+}
+.pie .redessociales {
+  width: 30px;
+  height: 30px;
+  margin: 0 10px;
+  fill: #ffffff;
+  cursor: pointer;
+}
+.pie .redessociales:hover {
+  fill: #28a745;
+}
+
+.pie {
+  background-color: #333;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.redes-sociales {
+  width: 30px;
+  height: 30px; /* agregue punto y coma */
+}
+
+.redes-social { /* corregido el nombre de la clase y agregue punto y coma */
+  width: 30px;
+  height: 30px;
+}
+
+/* cuadro de imagen productos*/
+.courses-container {
+  display: flex;
+  gap: 20px;
+}
+
+.course {
+  margin: 20px;
+}
+
+.course .course-info {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.course {
+  flex: 1;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+}
+.course img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+.course .course-info h2 {
+  font-size: 1.5em;
+}
+
+.navbar {
+  background-color: #343a40;
+  /* centrando iframe*/
+  /*formulario*/
+  /*redes sociales/contacto*/
+  /*formato texto relleno Nosotros*/
+  /*formato formulario -contacto */
+  /* Estilos generales */
+  /* Estilos para la sección de Comentarios */
+}
+.navbar .navbar-brand .logo1 {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+.navbar .price {
+  font-size: 1.2em;
+  color: #4caf50;
+}
+.navbar .botonpisado {
+  background-color: #1404f3;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+.navbar .video-section {
+  text-align: center;
+}
+.navbar .video-section iframe {
+  max-width: 100%;
+}
+.navbar .newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; /* Agregado margen inferior */
+}
+.navbar .newsletter button {
+  background-color: #FF5722;
+  color: rgb(0, 119, 255);
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+.navbar .boton-llamativo {
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 10px;
+}
+.navbar .newsletter {
+  text-align: center;
+  padding: 20px;
+}
+.navbar .newsletter h2 {
+  margin-bottom: 10px;
+}
+.navbar .newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar .newsletter label {
+  margin-bottom: 5px;
+}
+.navbar .newsletter input {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.navbar .newsletter button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+.navbar .contacto-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.navbar .redes-sociales a {
+  margin: 5px;
+  color: #333;
+  text-decoration: none;
+}
+.navbar .main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.navbar .texto {
+  flex: 1;
+  margin-right: 20px; /* Ajusta el margen entre el texto y la imagen según tu preferencia */
+}
+.navbar .imagen img {
+  width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+.navbar .formulario-contacto {
+  max-width: 400px;
+  margin: 20px auto;
+}
+.navbar .formulario-contacto h2 {
+  text-align: center;
+}
+.navbar .formulario-contacto form {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px; /* Ajusta el margen inferior del formulario */
+}
+.navbar .formulario-contacto form label {
+  margin-bottom: 5px;
+}
+.navbar .formulario-contacto form input,
+.navbar .formulario-contacto form textarea {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.navbar .formulario-contacto form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+.navbar .comments-section {
+  text-align: center;
+  padding: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.navbar form {
+  max-width: 300px; /* Ajusta el ancho del formulario de comentarios */
+  margin: 0 auto;
+}
+.navbar textarea {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+.navbar button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.navbar button:hover {
+  background-color: #45a049;
+}
+
+/* Media query para dispositivos medianos */
+@media screen and (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+}
+/* Media query para disp grandes*/
+@media screen and (min-width: 1024px) {
+  body {
+    font-size: 20px;
+  }
+}
+@media (max-width: 575px) {
+  .navbar img {
+    max-width: 60%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
