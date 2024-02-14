@@ -105,9 +105,10 @@ $course-margin-right: 20px;
     padding: 20px;
 }
 
-.texto {
-    flex: 1;
-    margin-right: 20px; /* Ajusta el margen entre el texto y la imagen según tu preferencia */
+.Nosotros {
+  display: grid;
+  grid-template-columns: auto 1fr; /* La primera columna se ajusta al contenido, la segunda ocupa el espacio restante */
+  gap: 20px; /* Ajusta el espacio entre la imagen y el texto según tu preferencia */
 }
 
 .imagen img {
@@ -184,3 +185,11 @@ button:hover {
     background-color: #45a049;
 }
 }
+  /* Agrega margen superior al botón en la sección de comentarios */
+.comments button {
+ margin-top: 15%;
+  margin-bottom: 30%; /* Ajusta el valor según sea necesario */
+}
+
+       
+   

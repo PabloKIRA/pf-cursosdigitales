@@ -168,6 +168,7 @@ header .navbar .form-control {
   position: fixed;
   bottom: 0;
   width: 100%;
+  margin-top: 50px;
 }
 
 .redes-sociales {
@@ -268,9 +269,10 @@ header .navbar .form-control {
   justify-content: space-between;
   padding: 20px;
 }
-.navbar .texto {
-  flex: 1;
-  margin-right: 20px; /* Ajusta el margen entre el texto y la imagen según tu preferencia */
+.navbar .Nosotros {
+  display: grid;
+  grid-template-columns: auto 1fr; /* La primera columna se ajusta al contenido, la segunda ocupa el espacio restante */
+  gap: 20px; /* Ajusta el espacio entre la imagen y el texto según tu preferencia */
 }
 .navbar .imagen img {
   width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
@@ -331,6 +333,12 @@ header .navbar .form-control {
 }
 .navbar button:hover {
   background-color: #45a049;
+}
+
+/* Agrega margen superior al botón en la sección de comentarios */
+.comments button {
+  margin-top: 15%;
+  margin-bottom: 30%; /* Ajusta el valor según sea necesario */
 }
 
 /* Media query para dispositivos medianos */
