@@ -85,67 +85,7 @@ $course-margin-right: 20px;
 
 /*formulario*/ 
 
-.newsletter form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 20px; /* Agregado margen inferior */
-}
 
-.newsletter button {
-    background-color: #FF5722; 
-    color: rgb(0, 119, 255);
-    padding: 15px 30px; 
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 10px;
-}
-
-.boton-llamativo {
-    background-color: #4CAF50;
-    color: white;
-    padding: 15px 30px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin-top: 10px;
-}
-.newsletter {
-    text-align: center;
-    padding: 20px;
-}
-
-.newsletter h2 {
-    margin-bottom: 10px;
-}
-
-.newsletter form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.newsletter label {
-    margin-bottom: 5px;
-}
-
-.newsletter input {
-    padding: 8px;
-    margin-bottom: 10px;
-}
-
-.newsletter button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-}
 /*redes sociales/contacto*/
 .contacto-redes {
     display: flex;
@@ -216,7 +156,7 @@ $course-margin-right: 20px;
  .comments-section {
     text-align: center;
     padding: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 50px;
 }
 
