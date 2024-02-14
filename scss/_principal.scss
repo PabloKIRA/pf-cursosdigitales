@@ -82,8 +82,19 @@ $course-margin-right: 20px;
     
 }
 
+.formu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta según sea necesario para ocupar la altura completa de la pantalla */
+margin-bottom: 30px;
+ }
 
-/*formulario*/ 
+form {
+  width: 30px; /* Ajusta el ancho según sea necesario */
+  margin: 30px;
+}
+
 
 
 /*redes sociales/contacto*/

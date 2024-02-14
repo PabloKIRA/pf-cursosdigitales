@@ -221,7 +221,6 @@ header .navbar .form-control {
 .navbar {
   background-color: #343a40;
   /* centrando iframe*/
-  /*formulario*/
   /*redes sociales/contacto*/
   /*formato texto relleno Nosotros*/
   /*formato formulario -contacto */
@@ -250,6 +249,17 @@ header .navbar .form-control {
 }
 .navbar .video-section iframe {
   max-width: 100%;
+}
+.navbar .formu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta según sea necesario para ocupar la altura completa de la pantalla */
+  margin-bottom: 30px;
+}
+.navbar form {
+  width: 30px; /* Ajusta el ancho según sea necesario */
+  margin: 30px;
 }
 .navbar .contacto-redes {
   display: flex;
