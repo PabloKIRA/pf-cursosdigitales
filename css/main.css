@@ -13,6 +13,7 @@ header {
   background-color: #343a40;
   color: #f6f7f6;
   padding: 20px;
+  margin-top: 0; /* o el valor que desees */
 }
 header h1 {
   font-size: 2em;
@@ -37,23 +38,23 @@ header .navbar .navbar-nav .nav-link {
   color: #111111;
 }
 header .navbar .navbar-nav .nav-link:hover {
-  color: #28a745;
+  color: #c76126;
 }
 header .navbar .navbar-nav .active {
   font-weight: bold;
 }
 header .navbar .navbar-nav .dropdown-menu {
   background-color: #343a40;
-  border: 1px solid #28a745;
+  border: 1px solid #c56424;
 }
 header .navbar .navbar-nav .dropdown-menu .dropdown-item {
   color: #ffffff;
 }
 header .navbar .navbar-nav .dropdown-menu .dropdown-item:hover {
-  background-color: #28a745;
+  background-color: #c76126;
 }
 header .navbar .navbar-nav .dropdown-menu .dropdown-divider {
-  border-color: #28a745;
+  border-color: #141414;
 }
 header .navbar .form-control {
   background-color: #e9ecef;
@@ -75,7 +76,7 @@ header .navbar .form-control {
   height: auto;
 }
 .courses-container .course .course-info {
-  padding: 20px;
+  padding: 0px;
 }
 .courses-container .course .course-info h2 {
   color: #343a40;
@@ -157,7 +158,7 @@ header .navbar .form-control {
   cursor: pointer;
 }
 .pie .redessociales:hover {
-  fill: #28a745;
+  fill: #c76126;
 }
 
 .pie {
@@ -168,7 +169,6 @@ header .navbar .form-control {
   position: fixed;
   bottom: 0;
   width: 100%;
-  margin-top: 50px;
 }
 
 .redes-sociales {
@@ -182,8 +182,10 @@ header .navbar .form-control {
   height: 30px;
 }
 
-.body {
+body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* cuadro de imagen productos*/
@@ -267,12 +269,14 @@ header .navbar .form-control {
 .navbar .main-content {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10px;
 }
 .navbar .Nosotros {
-  display: grid;
-  grid-template-columns: auto 1fr; /* La primera columna se ajusta al contenido, la segunda ocupa el espacio restante */
-  gap: 20px; /* Ajusta el espacio entre la imagen y el texto según tu preferencia */
+  text-align: justify; /* Justifica el texto para una apariencia más limpia */
+  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
+}
+.navbar .Nosotros {
+  text-align: left; /* Alinear el texto a la izquierda en pantallas más grandes */
 }
 .navbar .imagen img {
   width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
@@ -348,6 +352,19 @@ header .navbar .form-control {
 .comments button {
   margin-top: 15%;
   margin-bottom: 30%; /* Ajusta el valor según sea necesario */
+}
+
+.containermail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.botonenviar {
+  margin-top: 15%;
+  margin-bottom: 40%;
 }
 
 /* Media query para dispositivos medianos */

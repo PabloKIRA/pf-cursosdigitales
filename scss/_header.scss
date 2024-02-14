@@ -2,7 +2,8 @@ header {
     background-color: #343a40;
     color: #f6f7f6;
     padding: 20px;
-  
+    margin-top: 0; /* o el valor que desees */
+   
     h1 {
       font-size: 2em;
     }
@@ -33,7 +34,7 @@ header {
           color: #111111;
   
           &:hover {
-            color: #28a745;
+            color: #c76126;
           }
         }
   
@@ -43,18 +44,18 @@ header {
   
         .dropdown-menu {
           background-color: #343a40;
-          border: 1px solid #28a745;
+          border: 1px solid #c56424;
   
           .dropdown-item {
             color: #ffffff;
   
             &:hover {
-              background-color: #28a745;
+              background-color: #c76126;
             }
           }
   
           .dropdown-divider {
-            border-color: #28a745;
+            border-color: #141414;
           }
         }
       }
@@ -83,7 +84,8 @@ header {
       }
   
       .course-info {
-        padding: 20px;
+        padding: 0px;
+        
   
         h2 {
           color: #343a40;
@@ -180,7 +182,7 @@ header {
       cursor: pointer;
   
       &:hover {
-        fill: #28a745;
+        fill: #c76126;
       }
     }
   }
