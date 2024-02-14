@@ -81,30 +81,19 @@ $course-margin-right: 20px;
     max-width: 100%;
     
 }
-
-.formu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ajusta según sea necesario para ocupar la altura completa de la pantalla */
-margin-bottom: 30px;
- }
-
-form {
-  width: 30px; /* Ajusta el ancho según sea necesario */
-  margin: 30px;
+ .formulario1 {
+  margin-bottom: auto;
 }
+  
 
-
-
-/*redes sociales/contacto*/
-.contacto-redes {
+ /*redes sociales/contacto*/
+ .contacto-redes {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-}
+   }
 
-.redes-sociales a {
+   .redes-sociales a {
     margin: 5px;
     color: #333;
     text-decoration: none;

@@ -250,16 +250,8 @@ header .navbar .form-control {
 .navbar .video-section iframe {
   max-width: 100%;
 }
-.navbar .formu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh; /* Ajusta según sea necesario para ocupar la altura completa de la pantalla */
-  margin-bottom: 30px;
-}
-.navbar form {
-  width: 30px; /* Ajusta el ancho según sea necesario */
-  margin: 30px;
+.navbar .formulario1 {
+  margin-bottom: auto;
 }
 .navbar .contacto-redes {
   display: flex;
