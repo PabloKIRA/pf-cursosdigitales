@@ -335,6 +335,15 @@ header .navbar .form-control {
   background-color: #45a049;
 }
 
+/* Estilos para centrar la sección de comentarios */
+.comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+}
+
 /* Agrega margen superior al botón en la sección de comentarios */
 .comments button {
   margin-top: 15%;
