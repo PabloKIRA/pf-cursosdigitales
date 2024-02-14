@@ -272,11 +272,7 @@ body {
   padding: 10px;
 }
 .navbar .Nosotros {
-  text-align: justify; /* Justifica el texto para una apariencia más limpia */
-  line-height: 1.6; /* Espaciado entre líneas para mejorar la legibilidad */
-}
-.navbar .Nosotros {
-  text-align: left; /* Alinear el texto a la izquierda en pantallas más grandes */
+  align-content: center;
 }
 .navbar .imagen img {
   width: 100%; /* La imagen ocupará el 100% del ancho de su contenedor */
