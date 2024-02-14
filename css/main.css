@@ -20,6 +20,11 @@ header h1 {
 header p.subtitulo {
   font-size: 1.2em;
 }
+header .logo1 {
+  max-width: 150px; /* ajusta el tamaño máximo según tus necesidades */
+  width: 100%;
+  height: auto;
+}
 header .navbar {
   background-color: #343a40;
 }
@@ -65,7 +70,7 @@ header .navbar .form-control {
 .courses-container .course:hover {
   transform: scale(1.05);
 }
-.courses-container .course img {
+.courses-container .course .img {
   width: 100%;
   height: auto;
 }
